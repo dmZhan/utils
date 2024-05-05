@@ -1,7 +1,7 @@
 {
   "name": "@dmzj/utils",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.0.6",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by @dmzj",
   "author": "dmZhan <zqj1130123899@gmail.com>",

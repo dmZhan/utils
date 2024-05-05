@@ -12,3 +12,10 @@ export type Nullable<T> = T | null | undefined
  * Array, or not yet
  */
 export type Arrayable<T> = T | Array<T>
+
+/**
+ * Electron Process
+ */
+export interface electronProcess {
+  type: 'browser' | 'renderer' | 'worker' | 'utility'
+}

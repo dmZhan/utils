@@ -9,7 +9,7 @@ export default dmzj(
   },
   {
     rules: {
-      // overrides
+      'node/prefer-global/process': 'off',
     },
   },
 )

@@ -1,11 +1,13 @@
+import type { electronProcess } from '../types'
+
 export function isRenderer() {
-  return process.type === 'renderer'
+  return (process as NodeJS.Process & electronProcess).type === 'renderer'
 }
 
 export function isMain() {
-  return process.type === 'browser'
+  return (process as NodeJS.Process & electronProcess).type === 'browser'
 }
 
 export function isMacOs() {
-  return process.platform === 'darwin'
+  return (process as NodeJS.Process).platform === 'darwin'
 }

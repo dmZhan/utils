@@ -51,6 +51,11 @@
     "prepare": "simple-git-hooks",
     "update:deps": "taze major -w -r && pnpm install"
   },
+  "dependencies": {
+    "find-up": "^7.0.0",
+    "mlly": "^1.7.0",
+    "pkg-types": "^1.1.0"
+  },
   "devDependencies": {
     "@antfu/ni": "^0.21.12",
     "@antfu/utils": "^0.7.7",
